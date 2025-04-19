@@ -1,5 +1,6 @@
 # REAL-Video-Enhancer-Colab
-
+### [OPEN IN COLAB](https://colab.research.google.com/github/TNTwise/REAL-Video-Enhancer-Colab/blob/main/RVEColab.ipynb)
+<br/>
 A Google Colab notebook to enhance videos using interpolation and upscaling with [real-video-enhancer](https://github.com/tntwise/real-video-enhancer).
 
 ## Tutorial
