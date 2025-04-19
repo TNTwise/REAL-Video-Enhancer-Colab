@@ -11,6 +11,10 @@ This guide will walk you through using the [RVEColab.ipynb](RVEColab.ipynb) note
 1.  A Google Account to use Google Colab and Google Drive.
 2.  The video file you want to enhance.
 
+### Notes
+*   If `KILL_RUNTIME_AFTER_RENDER` is `True` and copying to Drive fails, you will need to manually download the output file from the Colab `/content/` directory (using the file browser on the left) before the runtime disconnects.
+*   Make sure to keep formatting the same and everything within quotes to stay within quotes. Not following the python syntax will break the script.
+
 ### Setup
 
 1.  **Open the Notebook:** Click the "Open in Colab" badge above (or manually upload [RVEColab.ipynb](RVEColab.ipynb) to Google Colab).
@@ -50,6 +54,5 @@ Once the process is complete, the enhanced video file (named according to `OUTPU
 ![Select RVE Folder](screenshots/sel_rve.jpg)
 ![Download File Manually](screenshots/download_file.jpg)
 
-### Notes
-*   If `KILL_RUNTIME_AFTER_RENDER` is `True` and copying to Drive fails, you will need to manually download the output file from the Colab `/content/` directory (using the file browser on the left) before the runtime disconnects.
+
     
